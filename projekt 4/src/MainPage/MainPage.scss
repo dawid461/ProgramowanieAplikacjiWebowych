@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: cornflowerblue !important;
+}
+#globalFavourite {
+  margin-top: 30px;
+  border-radius: 30px;
+}
+.addNote {
+  width: 510px;
+  text-align: center;
+  margin-bottom: 5vw;
+  margin-bottom: 2vw;
+  font-size: 2em;
+  border: 2px solid white;
+  background-color: darksalmon;
+  margin: auto;
+  display: block;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.inputTittle {
+  width: 500px;
+  height: 50px;
+  font-size: 1cm;
+  border: 1px solid black;
+}
+.inputContent {
+  width: 500px;
+  height: 200px;
+  font-size: 1cm;
+  border: 1px solid black;
+}
+.colorPicker {
+  width: 30px;
+  height: 30px;
+  margin: 5px 5px 5px 40px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.inputConfirm {
+  width: 506px;
+  height: 50px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.noteBox {
+  width: 300px;
+  height: 200px;
+  box-sizing: border-box;
+  border: black solid 2px;
+  background-color: white;
+  margin: 30px;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+}
+.titleTools {
+  box-sizing: border-box;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.4rem;
+  border-bottom: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.deleteButton {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  font-size: 2.2rem;
+  color: red;
+}
+.fav {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 2.5rem;
+  color: gold;
+}
+
+.noFav {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 2.5rem;
+  color: black;
+}

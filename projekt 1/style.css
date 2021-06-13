@@ -1,0 +1,33 @@
+*
+{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+h1{
+    font-size: 2em;
+    color: red;
+}
+.inputs {
+    display: flex;
+    justify-content: center;
+}
+.inputs input
+{
+    width: 4em;
+}
+.input-container {
+    display: flex;
+}
+.stats
+{
+    background-color: white;
+}
+.start
+{
+    display: flex;    
+    justify-content: center;
+    border-bottom: yellow solid 4px;
+    margin-bottom: 1em;
+}
+
